@@ -12,7 +12,7 @@ export class SellButton extends React.PureComponent<SellButtonProps> {
                 className="material-icons icon-button icon-button-remove"
                 onClick={() => this.props.onClick()}
             >
-                remove_circle_outline
+                sell
             </button>
         );
     }

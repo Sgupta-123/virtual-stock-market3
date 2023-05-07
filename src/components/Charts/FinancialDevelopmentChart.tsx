@@ -20,7 +20,7 @@ export default class FinancialDevelopmentChart extends React.PureComponent<Finan
                 <AreaChart data={valueHistory}>
                     <defs>
                         <linearGradient id="colorStock" x1="0" y1="0" x2="0" y2="1">
-                            <stop offset="5%" stopColor="#3472F7" stopOpacity={0.9}/>
+                            <stop offset="5%" stopColor="green" stopOpacity={0.9}/>
                         </linearGradient>
                     </defs>
                     <CartesianGrid strokeDasharray="3 3"/>
@@ -29,7 +29,7 @@ export default class FinancialDevelopmentChart extends React.PureComponent<Finan
                         interval={this.props.interval}
                     />
                     <YAxis domain={yAxisDomain}/>
-                    <Area dataKey="value" stroke="#3472F7" fill="url(#colorStock)"/>
+                    <Area dataKey="value" stroke="red" fill="url(#colorStock)"/>
                 </AreaChart>
             </ResponsiveContainer>
         );

@@ -12,7 +12,7 @@ export class BuyButton extends React.PureComponent<BuyButtonProps> {
                 className="material-icons icon-button icon-button-add"
                 onClick={() => this.props.onClick()}
             >
-                add_circle_outline
+                Buy
             </button>
         );
     }

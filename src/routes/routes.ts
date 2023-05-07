@@ -18,6 +18,7 @@ const appRoutes: AppRoute[] = [
     { path: '/market', name: 'Market', icon: 'pe-7s-graph1', component: Market },
     { path: '/quests', name: 'Quests', icon: 'pe-7s-note2', component: Quests },
     { path: '/', name: 'Depot', redirect: true, to: '/depot'},
+    { path: '/', name: 'login', redirect: true, to: '/login'}
 ];
 
 export default appRoutes;

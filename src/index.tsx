@@ -1,4 +1,4 @@
-import 'material-design-icons/iconfont/material-icons.css';
+// import 'material-design-icons/iconfont/material-icons.css';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
@@ -11,7 +11,6 @@ import './assets/css/bootstrap.min.css';
 import './assets/css/demo.css';
 import './assets/css/pe-icon-7-stroke.css';
 import './assets/sass/light-bootstrap-dashboard.css';
-
 import App from './containers/App/App';
 import registerServiceWorker from './registerServiceWorker';
 import { configureStore } from './state/configureStore';

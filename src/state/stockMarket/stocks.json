@@ -1,146 +1,446 @@
 [
-  {
-    "name": "Swiss Life AG",
-    "value": 345.44,
-    "volatility": 0.1,
-    "type": "Finance"
-  },
-  {
-    "name": "Spotify",
-    "value": 168.90,
-    "volatility":1,
-    "type": "Technology"
-  },
-  {
-    "name": "SolarCity",
-    "value": 20.76,
-    "volatility": 2,
-    "type": "Energy"
-  },
-  {
-    "name": "UBS AG",
-    "value": 327.44,
-    "volatility": 2,
-    "type": "Finance"
-  },
-  {
-    "name": "SHELL",
-    "value": 69.38,
-    "volatility": 3,
-    "type": "Raw Materials"
-  },
-  {
-    "name": "Card Services AG",
-    "value": 1736.23,
-    "volatility": 2,
-    "type": "Finance"
-  },
-  {
-    "name": "Apple",
-    "value": 185.11,
-    "volatility": 0.5,
-    "type": "Technology"
-  },
-  {
-    "name": "Samsung",
-    "value": 2210.03,
-    "volatility": 1,
-    "type": "Technology"
-  },
-  {
-    "name": "Holcim AG",
-    "value": 898.98,
-    "volatility": 1,
-    "type": "Raw Materials"
-  },
-  {
-    "name": "TESLA",
-    "value": 348.66,
-    "volatility": 1,
-    "type": "Technology"
-  },
-  {
-    "name": "Murphy OIL",
-    "value": 200.07,
-    "volatility": 2,
-    "type": "Raw Materials"
-  },
-  {
-    "name": "EWZ",
-    "value": 88.76,
-    "volatility": 1,
-    "type": "Energy"
-  },
-  {
-    "name": "Credit Suisse AG",
-    "value": 178.32,
-    "volatility": 1.5,
-    "type": "Finance"
-  },
-  {
-    "name": "Glencore",
-    "value": 30.64,
-    "volatility": 3,
-    "type": "Raw Materials"
-  },
-  {
-    "name": "TroubleShooters",
-    "value": 40.50,
-    "volatility": 3,
-    "type": "Fire Arms"
-  },
-  {
-    "name": "AT&T",
-    "value": 658.01,
-    "volatility": 1.5,
-    "type": "Technology"
-  },
-  {
-    "name": "Alphabet",
-    "value": 1115.65,
-    "volatility": 1,
-    "type": "Technology"
-  },
-  {
-    "name": "Ruag",
-    "value": 413.25,
-    "volatility": 3,
-    "type": "Fire Arms"
-  },
-  {
-    "name": "Axpo",
-    "value": 115.2,
-    "volatility": 1.5,
-    "type": "Energy"
-  },
-  {
-    "name": "Swiss RE",
-    "value": 85.7,
-    "volatility": 0.5,
-    "type": "Finance"
-  },
-  {
-    "name": "Wind Power AG",
-    "value": 333.333,
-    "volatility": 1,
-    "type": "Energy"
-  },
-  {
-    "name": "Wood Holding AG",
-    "value": 124.32,
-    "volatility": 0.5,
-    "type": "Raw Materials"
-  },
-  {
-    "name": "FuchsGroup AG",
-    "value": 20.01,
-    "volatility": 2,
-    "type": "Technology"
-  },
-  {
-    "name": "MasterCard",
-    "value": 2001.00,
-    "volatility": 1,
-    "type": "Finance"
-  }
-]
+    {
+      "name": "Swiss Life AG",
+      "value": 345.44,
+      "volatility": 0.1,
+      "type": "Finance"
+    },
+    {
+      "name": "Spotify",
+      "value": 168.90,
+      "volatility":1,
+      "type": "Technology"
+    },
+    {
+      "name": "SolarCity",
+      "value": 20.76,
+      "volatility": 2,
+      "type": "Energy"
+    },
+    {
+      "name": "UBS AG",
+      "value": 327.44,
+      "volatility": 2,
+      "type": "Finance"
+    },
+    {
+      "name": "SHELL",
+      "value": 69.38,
+      "volatility": 3,
+      "type": "Raw Materials"
+    },
+    {
+      "name": "Card Services AG",
+      "value": 1736.23,
+      "volatility": 2,
+      "type": "Finance"
+    },
+    {
+      "name": "Apple",
+      "value": 185.11,
+      "volatility": 0.5,
+      "type": "Technology"
+    },
+    {
+      "name": "Samsung",
+      "value": 2210.03,
+      "volatility": 1,
+      "type": "Technology"
+    },
+    {
+      "name": "Holcim AG",
+      "value": 898.98,
+      "volatility": 1,
+      "type": "Raw Materials"
+    },
+    {
+      "name": "TESLA",
+      "value": 348.66,
+      "volatility": 1,
+      "type": "Technology"
+    },
+    {
+      "name": "Murphy OIL",
+      "value": 200.07,
+      "volatility": 2,
+      "type": "Raw Materials"
+    },
+    {
+      "name": "EWZ",
+      "value": 88.76,
+      "volatility": 1,
+      "type": "Energy"
+    },
+    {
+      "name": "Credit Suisse AG",
+      "value": 178.32,
+      "volatility": 1.5,
+      "type": "Finance"
+    },
+    {
+      "name": "Glencore",
+      "value": 30.64,
+      "volatility": 3,
+      "type": "Raw Materials"
+    },
+    {
+      "name": "TroubleShooters",
+      "value": 40.50,
+      "volatility": 3,
+      "type": "Fire Arms"
+    },
+    {
+      "name": "AT&T",
+      "value": 658.01,
+      "volatility": 1.5,
+      "type": "Technology"
+    },
+    {
+      "name": "Alphabet",
+      "value": 1115.65,
+      "volatility": 1,
+      "type": "Technology"
+    },
+    {
+      "name": "Ruag",
+      "value": 413.25,
+      "volatility": 3,
+      "type": "Fire Arms"
+    },
+    {
+      "name": "Axpo",
+      "value": 115.2,
+      "volatility": 1.5,
+      "type": "Energy"
+    },
+    {
+      "name": "Swiss RE",
+      "value": 85.7,
+      "volatility": 0.5,
+      "type": "Finance"
+    },
+    {
+      "name": "Wind Power AG",
+      "value": 333.333,
+      "volatility": 1,
+      "type": "Energy"
+    },
+    {
+      "name": "Wood Holding AG",
+      "value": 124.32,
+      "volatility": 0.5,
+      "type": "Raw Materials"
+    },
+    {
+      "name": "FuchsGroup AG",
+      "value": 20.01,
+      "volatility": 2,
+      "type": "Technology"
+    },
+    {
+      "name": "MasterCard",
+      "value": 2001.00,
+      "volatility": 1,
+      "type": "Finance"
+    },
+    {
+      "name": "RELIANCE",
+      "value": 2255,
+      "volatility": 4.31,
+      "type": "Energy"
+      },
+      {
+      "name": "NESTLEIND",
+      "value": 19155,
+      "volatility": 3.29,
+      "type": "Energy"
+      },
+      {
+      "name": "INFY",
+      "value": 1404,
+      "volatility": 3.05,
+      "type": "Technology"
+      },
+      {
+      "name": "ICICIBANK",
+      "value": 861.95,
+      "volatility": 3.04,
+      "type": "Raw Materials"
+      },
+      {
+      "name": "TATAMOTORS",
+      "value": 411.35,
+      "volatility": 2.88,
+      "type": "Finance"
+      },
+      {
+      "name": "TCS",
+      "value": 3189.95,
+      "volatility": 2.07,
+      "type": "Energy"
+      },
+      {
+      "name": "TECHM",
+      "value": 1095,
+      "volatility": 2.01,
+      "type": "Energy"
+      },
+      {
+      "name": "TATACONSUM",
+      "value": 700.15,
+      "volatility": 1.93,
+      "type": "Finance"
+      },
+      {
+      "name": "AXISBANK",
+      "value": 854.9,
+      "volatility": 1.72,
+      "type": "Raw Materials"
+      },
+      {
+      "name": "HEROMOTOCO",
+      "value": 2314.75,
+      "volatility": 1.7,
+      "type": "Finance"
+      },
+      {
+      "name": "WIPRO",
+      "value": 363.35,
+      "volatility": 1.7,
+      "type": "Technology"
+      },
+      {
+      "name": "BAJAJFINSV",
+      "value": 1252.3,
+      "volatility": 1.69,
+      "type": "Energy"
+      },
+      {
+      "name": "HCLTECH",
+      "value": 1083.4,
+      "volatility": 1.68,
+      "type": "Energy"
+      },
+      {
+      "name": "DRREDDY",
+      "value": 4583,
+      "volatility": 1.58,
+      "type": "Raw Materials"
+      },
+      {
+      "name": "JSWSTEEL",
+      "value": 679,
+      "volatility": 1.45,
+      "type": "Energy"
+      },
+      {
+      "name": "CIPLA",
+      "value": 888.8,
+      "volatility": 1.44,
+      "type": "Energy"
+      },
+      {
+      "name": "UPL",
+      "value": 705,
+      "volatility": 1.38,
+      "type": "Finance"
+      },
+      {
+      "name": "POWERGRID",
+      "value": 224,
+      "volatility": 1.37,
+      "type": "Raw Materials"
+      },
+      {
+      "name": "HDFCBANK",
+      "value": 1595.6,
+      "volatility": 1.34,
+      "type": "Finance"
+      },
+      {
+      "name": "SBIN",
+      "value": 520.65,
+      "volatility": 1.26,
+      "type": "Technology"
+      },
+      {
+      "name": "BPCL",
+      "value": 344.9,
+      "volatility": 1.25,
+      "type": "Finance"
+      },
+      {
+      "name": "M&M",
+      "value": 1147.6,
+      "volatility": 1.2,
+      "type": "Energy"
+      },
+      {
+      "name": "HINDUNILVR",
+      "value": 2558.8,
+      "volatility": 1.15,
+      "type": "Technology"
+      },
+      {
+      "name": "INDUSINDBK",
+      "value": 1063,
+      "volatility": 1.13,
+      "type": "Energy"
+      },
+      {
+      "name": "ONGC",
+      "value": 150.1,
+      "volatility": 1.1,
+      "type": "Raw Materials"
+      },
+      {
+      "name": "BRITANNIA",
+      "value": 4277.45,
+      "volatility": 1.06,
+      "type": "Raw Materials"
+      },
+      {
+      "name": "HINDALCO",
+      "value": 404.05,
+      "volatility": 1.04,
+      "type": "Energy"
+      },
+      {
+      "name": "HDFCLIFE",
+      "value": 497,
+      "volatility": 1.02,
+      "type": "Energy"
+      },
+      {
+      "name": "BHARTIARTL",
+      "value": 752.15,
+      "volatility": 0.93,
+      "type": "Energy"
+      },
+      {
+      "name": "NTPC",
+      "value": 174.8,
+      "volatility": 0.92,
+      "type": "Energy"
+      },
+      {
+      "name": "TATASTEEL",
+      "value": 105,
+      "volatility": 0.87,
+      "type": "Technology"
+      },
+      {
+      "name": "LT",
+      "value": 2156.5,
+      "volatility": 0.82,
+      "type": "Energy"
+      },
+      {
+      "name": "KOTAKBANK",
+      "value": 1725.5,
+      "volatility": 0.72,
+      "type": "Raw Materials"
+      },
+      {
+      "name": "HDFC",
+      "value": 2615,
+      "volatility": 0.65,
+      "type": "Raw Materials"
+      },
+      {
+      "name": "EICHERMOT",
+      "value": 2923.1,
+      "volatility": 0.62,
+      "type": "Finance"
+      },
+      {
+      "name": "ULTRACEMCO",
+      "value": 7575.1,
+      "volatility": 0.47,
+      "type": "Raw Materials"
+      },
+      {
+      "name": "GRASIM",
+      "value": 1635.7,
+      "volatility": 0.29,
+      "type": "Technology"
+      },
+      {
+      "name": "DIVISLAB",
+      "value": 2834.4,
+      "volatility": 0.24,
+      "type": "Finance"
+      },
+      {
+      "name": "COALINDIA",
+      "value": 212.2,
+      "volatility": 0.14,
+      "type": "Raw Materials"
+      },
+      {
+      "name": "SBILIFE",
+      "value": 1100.2,
+      "volatility": 0.12,
+      "type": "Technology"
+      },
+      {
+      "name": "ITC",
+      "value": 382,
+      "volatility": 0.12,
+      "type": "Finance"
+      },
+      {
+      "name": "ADANIENT",
+      "value": 1788,
+      "volatility": 0.1,
+      "type": "Raw Materials"
+      },
+      {
+      "name": "MARUTI",
+      "value": 8325.95,
+      "volatility": 0.08,
+      "type": "Technology"
+      },
+      {
+      "name": "TITAN",
+      "value": 2526.95,
+      "volatility": -0.01,
+      "type": "Energy"
+      },
+      {
+      "name": "BAJAJ-AUTO",
+      "value": 3875.65,
+      "volatility": -0.09,
+      "type": "Technology"
+      },
+      {
+      "name": "BAJFINANCE",
+      "value": 5694,
+      "volatility": -0.18,
+      "type": "Technology"
+      },
+      {
+      "name": "ASIANPAINT",
+      "value": 2756.05,
+      "volatility": -0.23,
+      "type": "Raw Materials"
+      },
+      {
+      "name": "ADANIPORTS",
+      "value": 643.9,
+      "volatility": -0.74,
+      "type": "Energy"
+      },
+      {
+      "name": "SUNPHARMA",
+      "value": 995.2,
+      "volatility": -0.98,
+      "type": "Energy"
+      },
+      {
+      "name": "APOLLOHOSP",
+      "value": 4384.85,
+      "volatility": -1.3,
+      "type": "Finance"
+      }
+  ]

@@ -30,7 +30,7 @@ export default class StockShareCard extends React.Component<StockShareCardProps,
 
         return (
             <div className="content">
-                <Card title={'Share of Stocks'} noFooter={true}>
+                <Card title={'Virtual Share of Stocks'} noFooter={true}>
                     <ResponsiveContainer height={200} width="100%">
                         <PieChart>
                             <Legend

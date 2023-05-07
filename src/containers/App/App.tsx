@@ -9,7 +9,6 @@ import appRoutes from '../../routes/routes';
 import { AppState } from '../../state/AppState';
 import { getStockValue } from '../../state/depot/depotSelector';
 import { loadState } from '../../state/initialLoad/initialLoadActions';
-
 interface AppProps {
     currentMoney: number;
     currentStockBalance: number;
@@ -30,6 +29,7 @@ class App extends React.Component<AppProps> {
         return (
 
             <div className="wrapper">
+                
                 <NotificationSystemFrame/>
                 <Sidebar
                     currentBalance={this.props.currentMoney}
